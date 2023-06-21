@@ -6,7 +6,7 @@
 
 body{
     display: flex;
-    background-image: url(./fondo.jpg);
+    background-image: url(./negro.jpg);
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -230,7 +230,7 @@ input{
 }
 
 .overlay{
-    background-image: url(./naranja.jpg);
+    background-image: url(./naranjado.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;

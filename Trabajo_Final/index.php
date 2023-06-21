@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./index.css">
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet"/>
 </head>
 <body>
@@ -29,7 +29,7 @@
 
         <div class="form-container login-container">
             <form method="post">
-                <h1>Inicia Sesion</h1>
+                <h1>Inicia Sesión</h1>
                 <input type="email" placeholder="Correo" name="correo">
                 <input type="password" placeholder="Contraseña" name="contra">
                 <div class="content">
@@ -38,7 +38,7 @@
                         <label>Recuerdame</label>
                     </div>
                     <div class="pass-link">
-                        <a href="#">Olvide mi Contraseña</a>
+                        <a href="./password.php">Olvide mi Contraseña</a>
                     </div>
                 </div>
                 <button name="login" >Iniciar</button>

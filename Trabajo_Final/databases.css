@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    padding: 12px;
+}
+
+div{
+    padding: 10px 20px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.close{
+    margin:10px;
+    background-color: rgb(255, 145, 0);
+    width: 100px;
+    height: 20px;
+    border-radius: 18px;
+}
+
+.close:hover{
+    background-color: rgb(255, 81, 0);
+}
+
+.close a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+table{
+    border: 2px solid ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+table th{
+    border: 1px solid ;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;	
+    padding-bottom: 10px;
+}
+
+td{
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.funciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    text-align: center;
+}
+
+input{
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+}
+
+.eliminar{
+    margin: 20px;
+}
+
+.buscar{
+    margin-left: 20px;
+}
+
+.btn1{
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(255, 166, 1);
+}
+
+.btn2{
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgb(255, 166, 1);
+}
+
+form{
+    border: 1PX solid;
+    padding:30px;
+}
