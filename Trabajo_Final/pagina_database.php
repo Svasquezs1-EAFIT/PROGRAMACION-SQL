@@ -2,12 +2,12 @@
 
 $conexion = mysqli_connect("localhost","root","","database"); 
 
-if (isset($_POST['agregar'])) {
-    $nombre = trim($_POST['Nombre']);
-	$producto = trim($_POST['Producto']);
-	$precio = sha1($_POST['Valor']);
+if (isset($_POST['compras'])) {
+    $nombre = ['Nombre'];
+	$Producto = ['Producto'];
+	$Valor = ['Valor'];
 
-	$consulta = "INSERT INTO compras(Nombre, Producto, Valor) VALUES ('$nombre','$producto','$precio')";
+	$consulta = "INSERT INTO `compras`(`Nombre`, `Producto`, `Valor`) VALUES ('$nombre','$Producto','$Valor')";
 
 	$resultado = mysqli_query($conexion,$consulta);
 }

@@ -9,7 +9,7 @@
 <body>
 
     <div class="form-container login-container">
-        <form action="restablece.php" method="post">
+        <form action="restablece.php" method="post" id="todo">
             <h1>Restablece tu Contraseña</h1>
             <input type="text" placeholder="Nombre" name="Nombre">
             <input type="text" placeholder="Correo" name="Correo">

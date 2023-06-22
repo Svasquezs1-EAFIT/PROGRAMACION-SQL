@@ -114,3 +114,10 @@ form{
     border: 1PX solid;
     padding:30px;
 }
+
+.container h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

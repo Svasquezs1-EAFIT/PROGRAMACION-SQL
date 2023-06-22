@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COMPUTEC</title>
     <link rel="icon" type="imagen/icon" href="./breakfast.ico">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
+
 <body>
     <header class="header">
 
@@ -21,10 +23,10 @@
             </label>
             <nav class="navbar">
                 <ul>
-                    <li><a href="#Inicio">INICIO</a></li>
-                    <li><a href="#Servicios">SERVICIOS</a></l>
-                    <li><a href="#Productos">PRODUCTOS</a></li>
-                    <li><a href="#Contactos">CONTACTOS</a></li>
+                    <li><a href="#Inicio" id="inicio_1">INICIO</a></li>
+                    <li><a href="#Servicios" id="servicios_1">SERVICIOS</a></l>
+                    <li><a href="#Productos" id="productos_1">PRODUCTOS</a></li>
+                    <li><a href="#Contactos" id="contactos_1">CONTACTOS</a></li>
                 </ul>
             </nav>
             <div>
@@ -54,9 +56,9 @@
             <div class="header-txt">
                 <h1 id="Inicio"> <span>Bienvenido</span> a computec </h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui est placeat fuga quisquam laborum officia deleniti ratione, enim obcaecati voluptatum quis optio dolores consequatur voluptate vero excepturi, aliquam architecto incidunt!
+                En nuestra tienda, encontrarás una amplia selección de equipos informáticos de última generación y accesorios para satisfacer todas tus necesidades tecnológicas. Ya sea que estés buscando una potente computadora para gaming, una laptop para trabajar o estudiar, componentes para armar tu propia PC o periféricos de alta calidad, estamos aquí para ayudarte a encontrar lo que necesitas.!
                 </p>
-                <a href="#" class="btn-1">Informacion</a>
+                <a href="#Contactos" class="btn-1">Informacion</a>
             </div>
             <div class="header-img">
                 <img src="./logo.png" alt="">
@@ -66,7 +68,7 @@
     </header>
     
     <section class="breakfast container">
-        <h2>PORTATILES</h2>
+        <a href="#inicio_1"><h2>PORTATILES</h2></a>
         <p>
             Descuentos de hasta el 10%
         </p>
@@ -106,9 +108,9 @@
             </div>
     
             <div class="info-txt">
-                <h2 id="Servicios">La Mejor Calidad En los Productos</h2>
+                <a href="#servicios_1"><h2 id="Servicios">La Mejor Calidad En los Productos</h2></a>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reprehenderit hic natus impedit quia repudiandae quis! Deserunt beatae eum iure optio, porro debitis dolor voluptatem dignissimos non, iusto, animi vero.
+                    Nuestro equipo de expertos está disponible para asesorarte y brindarte información detallada sobre nuestros productos. Nos enorgullece ofrecer productos de marcas reconocidas y de confianza, para garantizarte la mejor calidad y rendimiento.
                 </p>
                 <a href="#" class="btn-1">Informacion</a>
             </div>
@@ -118,7 +120,7 @@
     </section>
 
     <main class="products container">
-        <h2 id="Productos">Productos</h2>
+        <a href="#productos_1"><h2 id="Productos">Productos</h2></a>
         <div class="box-container" id="lista-1">
 
             <div class="box">
@@ -126,8 +128,8 @@
                 <div class="product-txt">
                     <h3>Portatil ASUS</h3>
                     <p>Calidad Precio</p>
-                    <p class="precio" >$1'900.000</p>
-                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al Carrito</a>
+                    <p class="precio">$1'900.000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1" name="Comprar">Agregar al Carrito</a>
                     <div class="rating">
                         <input type="radio" name="star" id="star5"><label for="star5"></label>
                         <input type="radio" name="star" id="star4"><label for="star4"></label>
@@ -280,9 +282,9 @@
 
         <div class="app-txt">
 
-            <h2>DESCARGA nuestra app descubre ofertas</h2>
+            <h2>¡Descarga nuestra aplicación móvil y lleva nuestra tienda de computec contigo!</h2>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quos illo aliquam sapiente molestiae aliquid quibusdam asperiores, ipsum rerum consectetur sunt explicabo aspernatur, eligendi excepturi. Doloremque fugit excepturi reiciendis? Velit?
+                Nuestra aplicación te ofrece una experiencia de compra conveniente y rápida desde la comodidad de tu dispositivo móvil. Ya sea que estés buscando un nuevo equipo, accesorios o simplemente quieras mantenerte al día con las últimas novedades tecnológicas, nuestra aplicación es tu puerta de entrada a todo lo relacionado con la tecnología.
             </p>
             <div class="descargar">
                 <img src="./store1.png" id="store1">
@@ -302,22 +304,23 @@
         <div class="footer-content container">
 
             <div class="link">
-                <h3 id="Contactos">Contactanos</h3>
+                <a href="#inicio_1"><h3 id="Contactos">Contactanos</h3></a>
                 <ul>
-                    <li><a href="#">Telefono: (604)440044</a></li>
-                    <li><a href="#">Celular: 3122409654</a></li>
+                    <li><a href="#">Telefono: (604)444444</a></li>
+                    <li><a href="#">Celular: 3138982976</a></li>
                     <li><a href="#">Direccion: cr 80 #44-54</a></li>
-                    <li><a href="#">Whatsapp: 3122409654</a></li>
+                    <li><a href="#">Whatsapp:  3138982976</li>
+</a></li>
                 </ul>
             </div>
 
             <div class="link">
                 <h3>Pregunta Por</h3>
                 <ul>
-                    <li><a href="#">Sebastian</a></li>
-                    <li><a href="#">El arabe</a></li>
-                    <li><a href="#">Por yo</a></li>
-                    <li><a href="#">El creador</a></li>
+                    <li><a href="#">Sebastian Vasquez Saldarriaga</a></li>
+                    <li><a href="#">Basado en otras </a></li>
+                    <li><a href="#">Paginas Web</a></li>
+                    <li><a href="#"></a></li>
                 </ul>
             </div>
 
