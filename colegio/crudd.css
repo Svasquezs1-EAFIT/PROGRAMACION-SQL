@@ -1,0 +1,166 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    padding: 12px;
+    
+}
+
+div{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid ;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.close{
+    margin:10px;
+    background-color: rgb(255, 145, 0);
+    width: 100px;
+    height: 20px;
+    border-radius: 18px;
+}
+
+.close:hover{
+    background-color: rgb(255, 81, 0);
+}
+
+.close a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+table{
+    border: 2px solid ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+table th{
+    border: 1px solid ;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;	
+    padding-bottom: 10px;
+}
+
+td{
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.funciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    text-align: center;
+}
+
+input{
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+}
+
+.eliminara{
+    margin: 20px;
+}
+
+.buscara{
+    margin-left: 20px;
+}
+
+.eliminarn{
+    margin: 20px;
+}
+
+.buscarn{
+    margin-left: 20px;
+}
+
+.eliminarm{
+    margin: 20px;
+}
+
+.buscarm{
+    margin-left: 20px;
+}
+
+.btn1{
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(15, 15, 66);
+    color: rgb(255, 255, 255);
+}
+
+.btn2{
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color: rgb(15, 15, 66);
+    color: rgb(255, 255, 255);
+}
+
+form{
+    border: 1PX solid;
+    padding:30px;
+    width: 220px;
+}
+
+.container h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.crud{
+    background-color: rgb(15, 15, 66);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(0, 0, 88);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+}
