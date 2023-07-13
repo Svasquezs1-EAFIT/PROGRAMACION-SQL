@@ -44,3 +44,41 @@ a:hover{
     cursor: pointer;
     background-color: rgb(245, 159, 0);
 }
+
+.container{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.container h1{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+
+table{
+    border: 2px solid ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+table th{
+    border: 1px solid ;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;	
+    padding-bottom: 10px;
+    backdrop-filter: blur(8px);
+}
+
+td{
+    border-bottom: 1px solid;
+    text-align: center;
+    backdrop-filter: blur(1000px);
+}
