@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    position: fixed;
+    position: sticky;
+    top: 0;
+    border-radius: 12px;
+    align-items: center;
+    background: #fafafa50;
+    backdrop-filter: blur(0.4rem);
+}
+
+header div input{
+    border-radius: 9px;
+    width: 100%;
+    height: 150%;
+    margin-left: 300%;
+}
+
+/*Logo de la empresa*/
+
+.Logo{
+    width: 126px;
+    height: 110px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+}
+
+/*Barra de navegacion*/
+
+nav{
+    margin-top:20px;
+    width: 100%;
+    height: 30px;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+}
+
+nav a:hover{
+    text-decoration: none;
+    transform:scale(1.2);
+}
+
+/*Logo de whatsapp*/
+
+div .whatsapp{
+    position: fixed;
+    width: 58px;
+    height: 58px;
+    bottom: 30px;
+    right: 30px;
+}
+
+div .whatsapp:hover{
+    text-decoration: none;
+    transform:scale(1.2);
+}
+
+/*Carrusel de imagenes*/
+
+.carrucel{
+    width: 50;
+    height: auto;
+    margin: 10px 0;
+    overflow: hidden;
+    margin-top: -17px;
+}
+
+.carrucel ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.carrucel li{
+    width: 100%;
+    list-style: none;
+}
+
+.carrucel img{
+    width: 100%;
+    height: 80%;   
+    border-radius: 4px;
+}
+
+@keyframes slide{
+    0%{margin-left:0;}
+    20%{margin-left:0;}
+
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+}
+
+
+/*Contactos*/
+
+.footer{
+    padding: 50px 50px;
+    background-color: #757575;
+    margin-top: -15%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.link a{
+    color: #FFFFFF;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.icono img{
+    width: 210px;
+    height: 180px;
+    margin-right: 100px;
+}
